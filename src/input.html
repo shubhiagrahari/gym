@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym </title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/69/69840.png" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="in.css">
+    
+</head>
+<body class="bg-slate-800">
+    <div class=" flex bg-mist-700 pl-28 h-10 w-screen mt-3.5 pt-2 backdrop-blur-2xl ">
+        <img src="https://cdn-icons-png.flaticon.com/512/69/69840.png" alt="icon" onclick="total()" class="h-5  bg-green-500 hover:bg-mist-600 hover:cursor-pointer ">
+        
+        <a href="#" class="no-underline text-white font-bold">BeFit</a>
+    
+    <nav class=" ">
+        <ul class=" list-none flex text-white justify-between ml-90 font-light mr-30"><li class="hover:font-mono  hover:bg-lime-500 hover:text-black ml-10"><a href="#home" class="no-underline">Home</a></li>
+        <li class="ml-8 hover:font-mono font-light  hover:bg-lime-500 hover:text-black"><a href="#about us" class="no-underline">About us</a></li>
+          <li class="ml-8 hover:font-mono  hover:bg-lime-500 hover:text-black"><a href="#services" class="no-underline">Services</a></li>
+            <li class="ml-8 hover:font-mono  hover:bg-lime-500 hover:text-black"><a href="#shop" class="no-underline">Shop</a></li>
+        <li class="ml-8 hover:font-mono  hover:bg-lime-500 hover:text-black"><a href="#reviews" class="no-underline">Reviews</a></li>
+        <li class="ml-8 hover:font-mono  hover:bg-lime-500 hover:text-black"><a href="#pricing" class="no-underline">Pricing</a></li>
+        <li class="ml-8 hover:font-mono hover:bg-lime-500 hover:text-black"><a href="#contact" class="no-underline">Contact</a></li></ul>
+    </nav>
+    </div>
+
+    <main >
+        <div class="max-h-screen w-full grid place-content-center " id="home">
+            <h1 class="text-9xl font-bold text-lime-400 text-center hover:translate-x-19 hover:translate-y-4  hover:cursor-pointer">
+               FITNESS 
+            </h1>
+            <img src="https://wallpaperaccess.com/full/298598.jpg" alt="bodybuilder" class="h-100 w-full">
+        </div>
+    <div class="relative w-full h-50 shadow-xl overflow-hidden gap-0">
+  <!-- Wave Layer -->
+  <svg class="absolute bottom-0 left-0 w-full h-full"
+       xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+       style="animation: waveUpDown 16s ease-in-out infinite;">
+    <path fill="lime" fill-opacity="0.9"
+          d="M0,160L48,170.7C96,181,192,203,288,192C384,181,480,139,576,133.3C672,128,768,160,864,186.7C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,320L0,320Z">
+    </path>
+  </svg>
+
+  <svg class="absolute bottom-0 left-0 w-full h-full"
+       xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+       style="animation: waveUp 16s ease-in-out infinite;">
+    <path fill="lime" fill-opacity="0.4"
+          d="M0,160L48,170.7C96,181,192,203,288,192C384,181,480,139,576,133.3C672,128,768,160,864,186.7C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,320L0,320Z">
+    </path>
+  </svg>
+</div>
+
+
+<style>
+@keyframes waveUpDown {
+  0%, 100% { transform: translateX(300px) translateZ(50px); }
+  50% { transform: translateX(-300px)  ; }
+}
+@keyframes waveUp {
+  0%, 100% { transform: translatey(50px) translateZ(50px); }
+  50% { transform: translatey(-20px)  ; }
+}
+</style>
+<div class="flex items-center  max-h-screen ml-46 m-10" id="about us">
+<div class="h-110 w-130 border-2 border-b-amber-50 ">
+    <h1 class="text-lime-400 font-bold text-xl">Your Fitness Journey Starts Here...</h1>
+    <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, consectetur! Beatae, omnis autem nesciunt nostrum delectus quos saepe deleniti eius exercitationem recusandae aut fugiat atque ullam nam quisquam, consectetur aperiam.
+ </p>
+    <button class="bg-blue-50 hover:cursor-pointer hover:translate-1.5 hover:text-xl hover:font-bold h-10 w-25 m-7 hover:bg-gray-300 rounded-xl">Join Now</button>
+    <div class="flex items-center">
+        <div class="h-23 w-60 border-2 border-gray-700 text-center pt-3 bg-gray-800 hover:bg-gray-600 hover:cursor-pointer">
+        <i class="fa-solid fa-dumbbell  " style="color: rgb(141, 238, 45)  ">
+
+        </i>
+        <div><span class="text-amber-50 font-light">10+ Certified Trainers</span></div></div>
+        <div  class="h-23 w-60 border-2 border-gray-700 text-center pt-3  ml-10  bg-gray-800  hover:bg-gray-600 hover:cursor-pointer"><i class="fa-solid fa-users" style="color: rgb(141, 238, 45)">
+
+        </i>
+        <div><span class="text-amber-50 font-light">1000+ Active Members</span></div></div>
+    </div>
+    <div class="flex">  
+          <div  class="h-23 w-60 border-2 border-gray-700 text-center pt-3 mt-10  bg-gray-800  hover:bg-gray-600 hover:cursor-pointer"><i class="fa-solid fa-trophy" style="color: rgb(141, 238, 45)">
+
+          </i>
+        <div><span class="text-amber-50 font-light">10+ Years Of Experice</span></div></div>
+        <div class="h-23 w-60 border-2 border-gray-700 text-center pt-3 mt-10 ml-10  bg-gray-800  hover:bg-gray-600 hover:cursor-pointer"><i class="fa-solid fa-message" style="color: rgb(141, 238, 45);"></i>
+        <div><span class="text-amber-50 font-light">10k+ Google Reviews</span></div></div>
+    </div>
+    
+
+</div>
+<div>
+    <img src="https://thumbs.dreamstime.com/b/healthy-fitness-girl-protein-shake-sport-work-out-girl-gym-93514718.jpg" alt="girl" class="h-110 w-150 cursor-pointer rounded shadow " id="girl">
+    <img src="https://wallpapercave.com/wp/wp8258450.jpg" alt="boy" class=" hidden h-110 w-150 rounded shadow cursor-pointer" id="boy">
+</div>
+</div>
+
+
+
+
+
+
+    </main>
+
+    <section id="services">
+      <h1 class="flex text-2xl text-center ml-150 mt-28"><p class="text-white">Our</p><span class="text-lime-300 ml-2">Services</span></h1>
+      <div class=" flex items-center m-12 ml-96  ">
+        <div class="h-40 w-40 border-b-black border-2 text-center hover:translate-y-2 hover:scale-x-105 hover:shadow-2xl hover:animate-changeborder hover:border-6 " style="animation: changeborder 10s linear infinite;">
+            <i class="fa-solid fa-dumbbell" style="color: rgb(141, 238, 45);"></i>
+            <h3 class="text-blue-50 font-bold ">Personal Training</h3>
+            <p class="text-gray-400 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <button class="text-gray-300 font-medium pt-1.5 cursor-pointer hover:underline">Join Now</button>
+        </div>
+          <div class="h-40 w-40 border-b-black border-2 text-center  hover:translate-y-2 hover:scale-x-105 hover:shadow-2xl hover:animate-changeborder hover:border-6 ml-10" style="animation: changeborder 10s linear infinite;">
+              <i class="fa-solid fa-users-gear" style="color: rgb(141, 238, 45);"></i>
+            <h3 class="text-blue-50 font-bold ">Group  Training</h3>
+            <p class="text-gray-400 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A</p>
+            <button class="text-gray-300 font-medium pt-1.5 cursor-pointer hover:underline">Join Now</button>
+        </div>
+          <div class="h-40 w-40 border-b-black border-2 text-center  hover:translate-y-2 hover:scale-x-105 hover:shadow-2xl hover:animate-changeborder hover:border-6 ml-10" style="animation: changeborder 10s linear infinite;">
+            <i class="fa-solid fa-building-columns" style="color: rgb(141, 238, 45);"></i>
+            <h3 class="text-blue-50 font-bold">Treadmill</h3>
+            <p class="text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <button class="text-gray-300 font-medium pt-1.5 cursor-pointer hover:underline">Join Now</button>
+        </div>
+      </div>
+      <div class="flex items-center m-12 ml-96">
+          <div class="h-40 w-40 border-b-black border-2 text-center  hover:translate-y-2 hover:scale-x-105 hover:shadow-2xl hover:animate-changeborder hover:border-6" style="animation: changeborder 10s linear infinite;">
+            <i class="fa-solid fa-hands-praying" style="color: rgb(141, 238, 45);"></i>
+            <h3 class="text-blue-50 font-bold">Yoga</h3>
+            <p class="text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <button class="text-gray-300 font-medium pt-1.5 cursor-pointer hover:underline">Join Now</button>
+        </div>
+          <div class="h-40 w-40 border-b-black border-2 text-center  hover:translate-y-2 hover:scale-x-105 hover:shadow-2xl hover:animate-changeborder hover:border-6 ml-10" style="animation: changeborder 10s linear infinite;">
+            <i class="fa-brands fa-square-youtube" style="color: rgb(141, 238, 45);"></i>
+            <h3 class="text-blue-50 font-bold">Online Training</h3>
+            <p class="text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A</p>
+              <button class="text-gray-300 font-medium pt-1.5 cursor-pointer hover:underline ">Join Now</button>
+        </div>
+          <div class="h-40 w-40 border-b-black border-2 text-center  hover:translate-y-2 hover:scale-x-105 hover:shadow-2xl hover:border-6 ml-10" style="animation: changeborder 10s linear infinite;">
+            <i class="fa-solid fa-lightbulb" style="color: rgb(141, 238, 45) ; height: 20px ; width: 50px;"></i>
+            <h3 class="text-blue-50 font-bold">Diet And Tips</h3>
+            <p class="text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <button class="text-gray-300 font-medium pt-1.5 cursor-pointer hover:underline">Join Now</button>
+        </div>
+      </div>
+        <style>
+            @keyframes changeborder {
+  0%, 100% { border-color: aliceblue; }
+  20% { border-color: brown  ; }
+  40% { border-color: rgb(6, 134, 245); }
+  60% { border-color: rgb(63, 211, 85); }
+  80% { border-color: rgb(234, 44, 183); }
+   
+  }
+  
+  .animate-changeborder {
+  animation: changeborder 10s linear infinite;
+}
+
+        </style>
+    
+       <div class="flex items-center  w-screen ml-80">
+        <div  class="h-60 w-80 border-2 border-slate-700 mr-10">
+          <h1 class="text-2xl text-lime-300 mt-0.5">WHY GYMING IS <br>GOOD FOR HEALTH?</h1>
+          <p class="text-gray-400 mt-3.5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, et! Iste molestias delectus</p>
+          <button class=" text-black bg-amber-50 hover:bg-gray-300 cursor-pointer m-8 ml-2 h-10 w-30 rounded-md font-bold text-lg ">Join Classes</button>
+        </div>
+        <div class="relative">
+      
+  
+  <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center" id="slim"
+       style="background-image: url(https://www.shutterstock.com/shutterstock/photos/1235345635/display_1500/stock-photo-skinny-young-man-flex-arms-slim-man-do-sport-training-stimulating-muscle-growth-with-anabolic-1235345635.jpg)";></div>
+
+
+  <img id="fatty" src="https://media.istockphoto.com/id/623443656/id/foto/pria-gemuk-mengangkat-tangannya-di-studio.jpg?s=612x612&w=0&k=20&c=wmxgWzHxuKaUTHgODZgfrJtxIQ7NkICFmsXIagESmQ8="
+       class=" h-60 w-80 " >
+
+
+  <input id="slider" type="range" min="0" max="100" value="50"
+         class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-3/4">
+    
+    
+        </div>
+       </div>
+       
+
+    </section>
+
+jjg    <article id="shop">
+      <h1 class="flex text-2xl text-center ml-150 mt-28 mb-15"><p class="text-white ml-19">Our</p><span class="text-lime-300 ml-2"> Shop</span></h1>
+      <div class="flex ml-80">
+        <div class="h-50 w-60 ml-7">
+          <div class="ml-7 mb-4 relative hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"><div id="hidden"><img src="https://m.media-amazon.com/images/I/51lmlyr5PsL.jpg"alt="" class="h-30 w-50 bg-black"></div>
+            <div id="hide" class="  opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">Dumbbell</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+         <div class="h-50 w-60 ml-7 " >
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"> <div class="visible"><img src="https://tse4.mm.bing.net/th/id/OIP.zrFvdzmFLJPvhgoBk2BEGQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"alt="" class="h-30 w-50 bg-black"></div>
+          <div  class=" opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">Boxing Bag</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+         <div class="h-50 w-60 ml-7">
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"><div class="visible"><img src="https://rdxsports.com/cdn/shop/products/s12_gym_gloves-grey_1__1_1966d4a7-753f-43e7-9642-78cd763c2a1b.jpg?v=1706625160"alt="" class="h-30 w-50 bg-black"></div>
+          <div  class=" opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">Gym Gloves</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+        
+      </div>
+       <div class="flex ml-80">
+        <div class="h-50 w-60 ml-7">
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300" ><div class="visible"><img src="https://img.freepik.com/premium-photo/blue-exercise-ball-white-background_1303895-4111.jpg"alt="" class="h-30 w-50 bg-black"></div>
+          <div  class=" opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">Experice Ball</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+         <div class="h-50 w-60 ml-7">
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"><div class="visible"><img src="https://shop.truefitness.com/wp-content/uploads/sites/2/2024/11/Z500-rear-3_4-LCD.jpg" alt="" class="h-30 w-50 bg-black"></div>
+          <div  class=" opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          
+            
+          <h3 class="text-cyan-50 text-center font-semibold">Treadmill</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+         <div class="h-50 w-60 ml-7">
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"><div class="visible"><img src="https://preview.free3d.com/img/2013/08/2154833268103448096/al68dsf7.jpg"alt="" class="h-30 w-50 bg-black"></div>
+          <div class="opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">Kettlebell</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+        
+      </div>
+       <div class="flex ml-80">
+        <div class="h-50 w-60 ml-7">
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"><div class="visible"><img src="https://i5.walmartimages.com/seo/Optimum-Nutrition-Serious-Mass-Weight-Gainer-Protein-Powder-Chocolate-2-95lb_ed26ca18-2df1-45ca-8632-0dfd79facc56.c4294436400cbf4edb249002def96e86.png"alt="" class="h-30 w-50 bg-black"></div>
+          <div  class=" opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(253, 245, 245);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">protein Powder</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+         <div class="h-50 w-60 ml-7">
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"><div class="visible"><img src="https://thumbs.dreamstime.com/b/black-duffel-bag-gray-background-perfect-travel-gym-349514566.jpg"alt="" class="h-30 w-50 bg-black"></div>
+          <div  class=" opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">Gym Bag</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+         <div class="h-50 w-60 ml-7 ">
+          <div class="ml-7 mb-4 relative  hover:translate-y-2 hover:scale-105 hover:border-8 hover:rounded-lg hover:border-gray-300"><div class="visible"><img src="https://tse2.mm.bing.net/th/id/OIP.Cm0L8VC1VN78egpQYUpqYwHaD-?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"alt="" class="h-30 w-50  backdrop-blur-sm bg-black/30"></div>
+          <div class=" opacity-0 transition-opacity duration-600">
+               <div class="absolute top-1 right-3"><i class="fa-regular fa-eye" style="color: rgb(2, 2, 2);" ></i></div>
+             <div class="absolute top-6 right-3"><i class="fa-solid fa-heart" style="color: rgb(212, 0, 0);"></i></div>
+             <div class="absolute bottom-1 left-0.6"><button class="text-gray-50 bg-mauve-400 hover:bg-mauve-500 font-medium">Add to cart</button></div>
+          </div></div>
+          <h3 class="text-cyan-50 text-center font-semibold">Yoga Mat</h3>
+          <p  class="text-green-300 text-center">&#8377 99.99 <span class="text-gray-400 text-base  line-through">&#8377 149.99</span></p>
+        </div>
+        
+      </div>
+    </article>
+
+    <div id="schedule">
+       <h1 class="flex text-2xl text-center ml-150 mt-28 mb-15"><p class="text-white"> Weekly Gym</p><span class="text-lime-300 ml-2"> Schedule</span></h1>
+       <div class="flex ml-10">
+        <div class=" h-auto w-50 border bg-gray-50 border-gray-400"><h1 class="text-center text-black bg-gray-50 text-xl font-semibold">Monday</h1><p class="text-base text-center text-black  bg-gray-50">(7am-10pm)</p></div>
+        <div class=" h-auto w-50 border bg-gray-50 border-gray-400"><h1 class="text-center text-black bg-gray-50 text-xl font-semibold">Tuesday</h1><p class="text-base text-center text-black  bg-gray-50">(7am-10pm)</p></div>
+         <div class=" h-auto w-50 border bg-gray-50 border-gray-400"><h1 class="text-center text-black bg-gray-50 text-xl font-semibold">Wednesday</h1><p class="text-base text-center text-black  bg-gray-50">(7am-10pm)</p></div>
+        <div class=" h-auto w-50 border bg-gray-50 border-gray-400"><h1 class="text-center text-black bg-gray-50 text-xl font-semibold">Thursday</h1><p class="text-base text-center text-black  bg-gray-50">(7am-10pm)</p></div>
+        <div class=" h-auto w-50 border bg-gray-50 border-gray-400"><h1 class="text-center text-black bg-gray-50 text-xl font-semibold">Friday</h1><p class="text-base text-center text-black  bg-gray-50">(7am-10pm)</p></div>
+                <div class=" h-auto w-50 border bg-gray-50 border-gray-400"><h1 class="text-center text-black bg-gray-50 text-xl font-semibold">Saturday</h1><p class="text-base text-center text-black  bg-gray-50">(7am-10pm)</p></div>
+                 <div class=" h-auto w-50 border bg-gray-50 border-gray-400"><h1 class="text-center text-black bg-gray-50 text-xl font-semibold">Sunday</h1><p class="text-base text-center text-black  bg-gray-50">(7am-10pm)</p></div>       
+       </div>
+       <div class="flex ml-10">
+        <div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Bench Press</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Pull-Ups
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Squats</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Jogging
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Pull-Ups</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+ Battle Ropes
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Walk</div>
+
+
+       </div>
+       <div class="flex ml-10">
+        <div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Pull-Ups</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+ Barbell Row
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Incline press </div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Streching
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Deadlift</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Kettlebell
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Strech</div>
+
+
+       </div>
+       <div class="flex ml-10">
+        <div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Shoulder Press</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+Cable Row
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold "> Leg Press</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Foam Roll
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Barbell Row</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Jump Rope
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Foam Eoll</div>
+
+
+       </div>
+       <div class="flex ml-10">
+        <div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Side Raises</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Bicep Curis
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Lunges</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+Body Squats
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Dumbbell</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Burpees
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Yoga Flow</div>
+
+
+       </div>
+  <div class="flex ml-10">
+        <div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Tricep Dips</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Hammer Curls
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Leg Curl</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Pusp-Ups
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Curl+Dips</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+ Plank
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Breathing</div>
+
+
+       </div>
+       <div class="flex ml-10">
+        <div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Front Raises</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Face Pulls
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Calf Raise</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+Band Pulls
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Face Pulls</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Bicycle Crunch
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Hydrate</div>
+
+
+       </div>
+       <div class="flex ml-10">
+        <div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Treadmill Walk</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+ Leg Raise
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Plank</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+  Yoga
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Abs circuit</div>
+        <div class="text-gray-400 bg-transparent hover:bg-lime-300   hover:text-black border border-gray-600 h-auto w-50 text-center hover:font-semibold">
+side Plank
+</div>
+<div class="text-gray-400 bg-none hover:text-black hover:bg-lime-300 border border-mist-600 h-auto w-50 text-center hover:font-semibold ">Rest</div>
+
+
+       </div>
+    </div>
+
+
+    <div class="flex m-10 ml-40 mt-12 text-center ">
+      <div class="h-auto w-160 "><h1 class="text-white text-4xl font-bold">Know Your Fitness Level</h1>
+      <h3 class="text-gray-200 mt-4 mb-7 p-2" >Calculate Your Body Mass Index (BMI) To Monitor <br>Your Fitness Progress And Health.
+      </h3>
+    <div class="w-120 h-15 bg-gray-700 text-amber-50 text-center font-semibold pl-0 p-4 " id="result">Your BMI Result</div></div>
+    <div class="w-100 h-auto">
+    
+    <input type="number" min="0" max="200" id="weight" class="text-gray-200 bg-gray-700 h-15 w-100" placeholder="Enter Weight (Kg) ">
+    
+     <div class="w-100 h-auto">
+    
+    <input type="number" min="0" max="800" id="height" class="text-gray-200 bg-gray-700 h-15 w-100 mt-4" placeholder="Enter Height (Cm) ">
+    
+    <button onclick="calculate()" class="bg-gray-100 active:bg-gray-400 text-black active:text-black active:font-semibold h-15 w-60 mt-7 ">Calculate BMI</button>
+    </div>
+    </div>
+    </div>
+
+      <section id="reviews">
+        
+          <h1 class="flex text-center text-2xl mt-15 ml-150 mb-10 "><p class="text-white font-bold ">Client's</p><span class="text-lime-300 ml-2 font-bold"> Reviews</span></h1>
+          <!-- <div style="background-image: url(https://wallpaperbat.com/img/114814122-fitness-gym-hd-phone-wallpaper.jpg);" > -->
+            <!-- <div class="relative h-190 w-240 overflow-hidden"> -->
+              <!-- <img src="https://wallpaperbat.com/img/114814122-fitness-gym-hd-phone-wallpaper.jpg " alt="" class="object-cover w-full h-full ml-56"> -->
+            <div  class="relative "><img src="https://wallpaperbat.com/img/114814122-fitness-gym-hd-phone-wallpaper.jpg" alt="" class=" mt-5 h-120 w-60 object-cover rounded-md ml-130 absolute top-69 bottom-10 ">
+            
+              
+
+         <div class="flex  transition-transform duration-500 ease-in-out " id="track">
+          <div class="h-60 w-80 border-black  border-2 text-center p-4 ml-0 ">
+             <p class="text-gray-400 text-center">mhnatb karo aur pane kosis kro dar lgta hai hume bda manzil hai par ho bhi payega.</p>
+              <div class="mt-3" >          <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: rgb(137, 238, 110);"></i>
+              </div>
+              <h2 class=" text-amber-50 mt-4">John Deo</h2>
+
+              <img src="https://i.pinimg.com/736x/33/8d/ef/338def10f615b3017c2ee9182c8cfa2e.jpg" alt="" class=" rounded-full object-cover w-30 h-30 ml-10 mt-2 absolute top-53">
+              
+          </div>
+           <div class="h-60 w-80 border-b-gray-400 border-2 text-center p-4 ml-3">
+             <p class="text-gray-400 text-center">mhnatb karo aur pane kosis kro dar lgta hai hume bda manzil hai par ho bhi payega.</p>
+              <div class="mt-3" >          <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: rgb(137, 238, 110);"></i>
+              </div>
+              <h2 class=" text-amber-50 mt-4">John Deo</h2>
+              <img src="https://img.freepik.com/premium-photo/indian-young-girl-face-with-skin-detail_1130181-33119.jpg" alt="" class=" rounded-full object-cover w-30 h-30 ml-10 mt-2 absolute top-53">
+
+          </div>
+           <div class="h-60 w-80 border-b-gray-400 border-2 text-center p-4 ml-3 ">
+             <p class="text-gray-400 text-center">mhnatb karo aur pane kosis kro dar lgta hai hume bda manzil hai par ho bhi payega.</p>
+              <div class="mt-3" >          <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: rgb(137, 238, 110);"></i>
+              </div>
+              <h2 class=" text-amber-50 mt-4">John Deo</h2>
+              <img src="https://tse3.mm.bing.net/th/id/OIP.lN_0e63MljsXMElgPiCLzAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" class=" rounded-full object-cover w-30 h-30 ml-10 mt-2 absolute top-53">
+
+          </div>
+           <div class="h-60 w-80 border-b-gray-400 border-2 text-center p-4 ml-3">
+             <p class="text-gray-400 text-center"> mhnatb karo aur pane kosis kro dar lgta hai hume bda manzil hai par ho bhi payega.</p>
+              <div class=" mt-3" >          <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: rgb(137, 238, 110);"></i>
+              </div>
+              <h2 class=" text-amber-50 mt-4">John Deo</h2>
+              <img src="https://i.pinimg.com/736x/33/8d/ef/338def10f615b3017c2ee9182c8cfa2e.jpg" alt="" class=" rounded-full object-cover w-30 h-30 ml-10 mt-2 absolute top-53">
+
+          </div>
+           <div class="h-60 w-80 border-b-gray-400 border-2 text-center p-4 ml-3">
+             <p class="text-gray-400 text-center">mhnatb karo aur pane kosis kro dar lgta hai hume bda manzil hai par ho bhi payega.</p>
+              <div class="mt-3" >          <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: rgb(137, 238, 110);"></i>
+              </div>
+              <h2 class=" text-amber-50 mt-4">John Deo</h2>
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/047/462/741/small_2x/positive-man-on-clean-background-photo.jpg" alt="" class=" rounded-full object-cover w-30 h-30 ml-10 mt-2 absolute top-53">
+          </div>
+           <div class="h-60 w-80 border-b-gray-400 border-2 text-center p-4 ml-3">
+             <p class="text-gray-400 text-center">.  mhnat karo aur pane kosis kro dar lgta hai hume bda manzil hai par ho bhi payega.</p>
+              <div class="mt-3" >          <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(137, 238, 110);"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: rgb(137, 238, 110);"></i>
+              </div>
+              <h2 class=" text-amber-50 mt-4">John Deo</h2>
+              <img src="https://cdn.pixabay.com/photo/2021/05/04/13/29/portrait-6228705_1280.jpg" alt="" class=" rounded-full object-cover w-30 h-30 ml-10 mt-2 absolute top-53">
+
+          </div>
+         </div>
+         <button onclick="prev() " id="prev" class=" absolute top-120 left-79 h-6 w-8 bg-amber-50 active:bg-lime-300"><i class="fa-solid fa-circle-chevron-left" style="color: rgb(187, 190, 185); height: 24px; width: 30px;"></i></button>
+         <button onclick="next()" id="next" class="absolute top-120 right-150 h-6 w-8 bg-amber-50 active:bg-lime-300"><i class="fa-solid fa-circle-chevron-right" style="color: rgb(187, 190, 185);"></i></button>
+            </div>
+         
+          </div>
+        
+      </section>
+
+      <div id="pricing" class=" mt-160 ml">
+      <div class="text-center">
+        <button onclick="month()" class="h-15 w-40 bg-gray-50 rounded-lg active:bg-gray-500" id="month">Monthly</button>
+        <button onclick="year()" class="h-15 w-40 bg-gray-50 rounded-lg active:bg-gray-500" id="year">Yearly</button>
+
+      </div>
+      <div class="flex ml-30">
+        <div class="h-auto w-auto border border-gray-900  ml-8 mt-35 hover:border-2"><h1 class="text-3xl text-blue-100 m-3 font-bold">Basic</h1>
+        <div class="visible flex h-15 w-80 bg-gray-900 rounded-lg text-center mt-8 ml-3 "><span class="text-gray-400 pl-35 pt-5">&#8377 </span> <p class="text-white pt-5 font-semibold">499</p>
+</div>
+<div class=" opacity-0 flex h-15 w-80 bg-gray-900 rounded-lg text-center mt-8 ml-3 "><span class="text-gray-400 pl-35 pt-5">&#8377 </span> <p class="text-white pt-5 font-semibold">4999</p>
+</div>
+        <ul class="mt-6 text-gray-500 text-xl pl-3">
+          <li >Gym Access <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 195px; "></i></li> 
+          <li class="mt-2"> Free Locker <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 197px;"></i></li>
+          <li class="mt-2">Group Class <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 197px;"></i></li>
+          <li class="mt-2">Personal Trainer <i class="fa-solid fa-xmark" style="color: rgb(242, 135, 31); margin-left: 170px;"></i></li>
+          <li class="mt-2">Protein Drinks <i class="fa-solid fa-xmark" style="color: rgb(242, 135, 31); margin-left: 185px;"></i></li>
+        </ul>
+        <button class="mt-4 h-15 w-60 bg-gray-50 hover:bg-gray-500 hover:font-bold text-lg"> Join Now </button>
+        </div>
+         <div class="h-150 w-auto    mt-25 border-4 border-gray-400 pt-6"><div class="flex "><h1 class="text-3xl text-blue-100 m-3 font-bold flex">Standard <h2 class="h-12 w-50 mt-3 ml-10 text-center rounded-lg bg-green-400 text-4xl text-shadow-black font-bold ">Popular</h2></h1></div>
+        <div class=" visible  flex h-15 w-80 bg-gray-900 rounded-lg text-center mt-8 ml-10"><span class="text-gray-400 pl-35 pt-5">&#8377 </span> <p class="text-white pt-5 font-semibold">999</p>
+</div>
+<div class=" opacity-0 flex h-15 w-80 bg-gray-900 rounded-lg text-center mt-8 ml-10 "><span class="text-gray-400 pl-35 pt-5">&#8377 </span> <p class="text-white pt-5 font-semibold">9999</p>
+</div>
+        <ul class="mt-6 text-gray-500 text-2xl pl-3">
+          <li >Gym Access <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 195px; "></i></li> 
+          <li class="mt-2"> Free Locker <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 197px;"></i></li>
+          <li class="mt-2">Group Class <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 197px;"></i></li>
+          <li class="mt-2">Personal Trainer <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 162px;"></i></li>
+          <li class="mt-2">Protein Drinks <i class="fa-solid fa-xmark" style="color: rgb(242, 135, 31); margin-left: 175px;"></i></li>
+        </ul>
+        <button class="mt-6 h-15 w-60 bg-gray-50 hover:bg-gray-500 hover:font-bold text-lg"> Join Now </button>
+        </div>
+         <div class="h-auto w-auto border border-gray-900   mt-35 hover:border-2 "><h1 class="text-3xl text-blue-100 m-3 font-bold">Premium</h1>
+        <div class=" visible  flex h-15 w-80 bg-gray-900 rounded-lg text-center mt-8 ml-3"><span class="text-gray-400 pl-35 pt-5">&#8377 </span> <p class="text-white pt-5 font-semibold">1199</p>
+</div>
+<div class=" opacity-0 flex h-15 w-80 bg-gray-900 rounded-lg text-center mt-8 ml-3 "><span class="text-gray-400 pl-35 pt-5">&#8377 </span> <p class="text-white pt-5 font-semibold">11999</p>
+</div>
+        <ul class="mt-6 text-gray-500 text-xl pl-3">
+          <li >Gym Access <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 195px; "></i></li> 
+          <li class="mt-2"> Free Locker <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 197px;"></i></li>
+          <li class="mt-2">Group Class <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 197px;"></i></li>
+          <li class="mt-2">Personal Trainer <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 164px;"></i></li>
+          <li class="mt-2">Protein Drinks <i class="fa-solid fa-check" style="color: rgb(125, 225, 98); margin-left: 180px;"></i> </li>
+        </ul>
+        <button class="mt-4 h-15 w-60 bg-gray-50 hover:bg-gray-500 hover:font-bold text-lg"> Join Now </button>
+        </div>
+      </div>
+     </div>
+
+     <section id="contact">
+      <div class="flex mt-20 ml-20">
+        <div><img src="https://static.vecteezy.com/system/resources/thumbnails/046/837/132/small_2x/handsome-confident-male-fitness-trainer-smiling-in-modern-workout-gym-fitness-motivation-and-healthy-lifestyle-photo.jpg" alt="" class="h-90 w-140 ml-15 "></div>
+        <div><h1 class="text-4xl text-white font-semibold ml-6 ">Get In Touch</h1>
+        <div class="flex">
+          <input type="text" placeholder="Enter Name" class=" m-7 p-2 h-10 w-50 border  border-gray-500 bg-gray-900 text-gray-400">
+          <input type="tel" placeholder="Enter Number "  class=" m-7 ml-0 p-2 h-10 w-50 border  border-gray-500 bg-gray-900 text-gray-400">></div>
+         <div class="flex"> <input type="email" placeholder="Enter Email"  class=" m-6 p-2 h-10 mt-0 w-50 border  border-gray-500 bg-gray-900 text-gray-400">>
+          <select placeholder="Enter gender"  class=" m-6 ml-0 p-2 mt-0  border  border-gray-500 h-10 w-50 bg-gray-900 text-gray-400">
+            <option value="null">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="transgender">Trans Gender</option>
+            <option value="lessboi">lessbians</option>
+            <option value="gay">Gay</option>
+            <option value="bi">Bisexual</option>
+          </select>
+        </div>
+        <textarea name="" id="" placeholder="Enter Message" class=" m-7 p-2 mt-2 border  border-gray-500 h-40 w-105  bg-gray-900 text-gray-400"></textarea>></textarea>
+            <div class="ml-7 mt-2">        <button class="h-15 w-50 bg-gray-200 hover:bg-gray-500 hover:font-bold text-lg ml-0">send Message</button></div>
+        </div>
+      </div>
+
+      <div class="flex justify-around mt-10">
+        <div class="flex items-center m-8 h-18 w-60 bg-gray-700 pl-4">
+          <div class="h-8 w-8 rounded-md bg-gray-100 pt-1 text-center"><i class="fa-solid fa-location-dot" style="color: rgb(69, 70, 75);"></i></div>
+          <div><h1 class="text-gray-400 font-semibold ml-2">Main Office</h1> <p class="hover:underline text-lime-300 cursor-pointer ml-2">India-123 456</p></div>
+        </div>
+        <div class="flex items-center m-8 h-18 w-60 bg-gray-700 pl-4">
+          <div class="h-8 w-8 rounded-md bg-gray-100 pt-1 text-center"><i class="fa-solid fa-phone" style="color: rgb(69, 70, 75);"></i></div>
+          <div><h1 class="text-gray-400 font-semibold ml-2">Our Number</h1> <p class="hover:underline text-lime-300 cursor-pointer ml-2">+ 111-222-3333</p></div>
+        </div>
+        <div class="flex items-center m-8 h-18 w-60 bg-gray-700 pl-4 ">
+          <div class="h-8 w-8 rounded-md bg-gray-100 pt-1 text-center"><i class="fa-solid fa-envelope" style="color: rgb(69, 70, 75);"></i></div>
+          <div><h1 class="text-gray-400 font-semibold ml-2">Our Email</h1> <p class="hover:underline text-lime-300 cursor-pointer ml-2">example@gmail.com</p></div>
+        </div>
+        <div class="flex items-center m-8 h-18 w-60 bg-gray-700 pl-4">
+          <div class="h-8 w-8 rounded-md bg-gray-100 pt-1 text-center"><i class="fa-solid fa-comment-dots" style="color: rgb(69, 70, 75);"></i></div>
+          <div><h1 class="text-gray-400 font-semibold ml-2">Any Suggestions?</h1> <p class="hover:underline text-lime-300 cursor-pointer ml-2">Send Feedback</p></div>
+        </div>
+      </div>
+     </section>
+
+     <article id="footer">
+      <div  style="background-image: url(https://wallpapers.com/images/hd/plasma-1920-x-1080-wallpaper-tblvhmb0mb3aerv4.jpg);" class="h-170 w-full object-cover">
+
+        <h1 class="text-6xl text-white font-bold grid place-content-center max-h-screen  hover:bg-blue-600 hover:text-white h-25 w-250  pt-18 ml-70 text-center ">Stay Disciplined, stay Strong <p class="text-2xl text-lime-300 mt-10">7:00 AM To 10:00 PM [Daily]</p>
+
+        </h1>
+        <div class="flex mt-28 ml-39 border-4 border-b-white border-t-white text-center w-250">
+         <button class="bg-gray-200 text-black  hover:font-semibold hover:bg-gray-400 cursor-pointer border-2 m-6 h-10 w-30 rounded-md"><a href="#home">Home</a></button>
+          <button class="bg-gray-200 text-black  hover:font-semibold hover:bg-gray-400 cursor-pointer border-2 m-6 h-10 w-30 rounded-md"><a href="#about">About Us</a></button>
+           <button class="bg-gray-200 text-black  hover:font-semibold hover:bg-gray-400 cursor-pointer border-2 m-6 h-10 w-30 rounded-md"><a href="#services">Services</a></button>
+            <button class="bg-gray-200 text-black  hover:font-semibold hover:bg-gray-400 cursor-pointer border-2 m-6 h-10 w-30 rounded-md"><a href="#shop">Shop</a></button>
+             <button class="bg-gray-200 text-black  hover:font-semibold hover:bg-gray-400 cursor-pointer border-2 m-6 h-10 w-30 rounded-md"><a href="#reviews">Reviews</a></button>
+              <button class="bg-gray-200 text-black  hover:font-semibold hover:bg-gray-400 cursor-pointer border-2 m-6 h-10 w-30 rounded-md"><a href="#pricing">Pricing</a></button>
+        </div>
+        <div class="h-12 w-150 bg-amber-50 rounded-4xl ml-89 flex justify-between mt-16"><input type="email" placeholder="Enter Your Email" class="bg-amber-50 rounded-2xl pt-.5 w-full "><button class="rounded-4xl bg-lime-300 active:bg-lime-600 active:font-bold text-black text-base active:text-xl w-60 text-center">Subscribe</button></div>
+        <div class="flex m-6 mt-20 ml-126 gap-5 h-18 w-78 text-center bg-transparent"><div onclick="youtube()" class="h-15 w-15 rounded-full bg-gray-300 hover:bg-lime-500 text-center pt-4" id="y"><i class="fa-brands fa-youtube" style="color: rgb(69, 70, 75);"></i></div>
+        <div onclick="whatsapp()" class="h-15 w-15 rounded-full bg-gray-300 hover:bg-lime-500 text-center pt-4" id="w"><i class="fa-brands fa-whatsapp" style="color: rgb(69, 70, 75);"></i></div>
+        <div onclick="linkdein()" class="h-15 w-15 rounded-full bg-gray-300 hover:bg-lime-500 text-center pt-4" id="l"><i class="fa-brands fa-linkedin" style="color: rgb(69, 70, 75);"></i></div>
+        <div onclick="insta()" class="h-15 w-15 rounded-full bg-gray-300 hover:bg-lime-500 text-center pt-4" id="i"><i class="fa-brands fa-instagram" style="color: rgb(69, 70, 75);"></i></div>
+      </div>
+      <div class="h-20 w-full bg-gray-600  font-bold text-3xl text-shadow-xl text-white text-center grid hover:bg-black">Created by engineer Shubhi <p class="text-lime-400 gap-4 pl-4 text-2xl hover:underline">("Miss Web Designer")</p></div>
+      </div>
+     </article>
+
+</body>
+<script >
+let girl = document.getElementById("girl");
+let boy = document.getElementById("boy");
+
+
+girl.addEventListener("mouseenter", () => {
+  girl.classList.add("hidden");
+  boy.classList.remove("hidden");
+});
+
+boy.addEventListener("mouseenter", () => {
+  boy.classList.add("hidden");
+  girl.classList.remove("hidden");
+});
+   let slim=document.getElementById("slim")
+   let slider=document.getElementById("slider")
+   let fatty=document.getElementById("fatty")
+   slider.addEventListener("input",(e)=>{
+   
+      let val = slider.value; 
+    fatty.style.clipPath = `inset(0 ${100 - val}% 0 0)`
+    
+   })
+
+   let hide= document.getElementById("hide")
+   let hidden= document.getElementById("hidden")
+   hidden.addEventListener("mouseenter",()=>{
+     hide.classList.remove("opacity-0");
+    
+   })
+    hidden.addEventListener("mouseleave",()=>{
+    hide.classList.add("opacity-0");
+    
+   })
+
+   let visible=document.querySelectorAll(".visible")
+   
+   visible.forEach(el=>{
+      let t=el.parentElement.querySelector(".opacity-0")
+    el.addEventListener("mouseenter",()=>{
+     t.classList.remove("opacity-0")
+   })
+     el.addEventListener("mouseleave",()=>{
+
+    t.classList.add("opacity-0")
+   })
+  })
+
+  
+    function calculate(){
+       let result=document.getElementById("result")
+  let height= parseFloat(document.getElementById("height").value)
+  let weight=  parseFloat(document.getElementById("weight").value)
+        BMI=weight/((height/100)*(height/100))
+       let category="";
+       if (BMI<18.5 && BMI>0){
+        category="(underweight)";
+       }
+       else if(BMI<25 && BMI>18.5){
+        category="(Normal Weight)";
+       }
+       else if(BMI<30 && BMI>25){
+        category="(Overweight)";
+       }
+
+   result.innerHTML=`Your BMI is ${BMI .toFixed(2)} ${category}`
+   }
+  
+   let currentIndex = 0;
+const track = document.getElementById("track");
+const cards = document.querySelectorAll(".h-60");
+const total = cards.length;
+
+function updateSlide() {
+  track.style.transform = `translateX(-${currentIndex * 250}px)`; 
+  // 320px ≈ card width (w-80 ~ 20rem)
+}
+
+function prev() {
+  currentIndex = (currentIndex - 1 +total) % total;
+  updateSlide();
+}
+
+function next() {
+  currentIndex = (currentIndex + 1) % total;
+  updateSlide();
+}
+
+ let m=document.querySelectorAll(".visible")  
+ let y=document.querySelectorAll(".opacity-0")
+ let month=document.getElementById("month")
+ let year=document.getElementById("year")
+ 
+ month.addEventListener("click",()=>{
+   m.forEach(e=>{
+    e.classList.add("visible")
+   })
+ 
+  y.forEach(el=>{
+    el.classList.add("opacity-0")
+  })
+
+ })
+
+  
+ year.addEventListener("click",()=>{
+   m.forEach(e=>{
+    e.classList.add("visible")
+   })
+  
+  
+  y.forEach(el=>{
+    el.classList.remove("opacity-0")
+  })
+ })
+
+
+ function youtube (){
+    let you=document.getElementById("y")
+   
+    window.location=(" https://www.youtube.com")
+ }
+  function whatsapp(){
+     let what=document.getElementById("w")
+    window.location=("https://wa.me")
+  }
+
+  function linkdein(){
+    
+    let link=document.getElementById("l")
+    window.location=(" https://www.linkedin.com")
+  }
+  function insta(){
+
+    let insta=document.getElementById("i")
+    window.location=(" https://www.instagram.com")
+  }
+
+ 
+    
+</script>
+
+</html>
